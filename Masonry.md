@@ -1,6 +1,12 @@
 // 添加约束
 ``` swift
-+(instancetype)constraintWithItem:(id)view1 attribute:(NSLayoutAttribute)attr1 relatedBy:(NSLayoutRelation)relation toItem:(nullable id)view2 attribute:(NSLayoutAttribute)attr2 multiplier:(CGFloat)multiplier constant:(CGFloat)c;
++(instancetype)constraintWithItem:(id)view1 
+						attribute:(NSLayoutAttribute)attr1 
+						relatedBy:(NSLayoutRelation)relation 
+						   toItem:(nullable id)view2 
+						attribute:(NSLayoutAttribute)attr2 
+					   multiplier:(CGFloat)multiplier 
+					     constant:(CGFloat)c;
 ```
 
 >view1：设置约束的对象（视图）
